@@ -1,4 +1,4 @@
-dpf/project
-dpf/target
-dpf/data
-dpf/src/main/python/data
+dpf/dpf_spark/project
+dpf/dpf_spark/target
+dpf/dpf_spark/data
+dpf/dpf_spark/src/main/python/data
