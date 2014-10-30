@@ -1,6 +1,0 @@
-* Key strokes
-
-** General
-** Org
-** Scala
-** Python
