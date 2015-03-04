@@ -1,4 +1,4 @@
 dpf
 ===
 
-distributed particle filters implemented on hadoop and spark
+distributed implementations of particle filters using Mapreduce and Apache Spark

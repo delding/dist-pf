@@ -7,14 +7,9 @@
 
 //#include <boost/python/module.hpp>
 //#include <boost/python/def.hpp>
-#include "del_python_ext.h"
-#include "del_data_generator.h"
-#include "del_filtering.h"
-
-/* //debug
-#include <limits>
-*/ //debug
-
+#include "del_python_ext.hpp"
+#include "del_data_generator.hpp"
+#include "del_filtering.hpp"
 
 //namespace del {
 ///TODO:use ctypes instead of boost_python
@@ -59,10 +54,6 @@ int initializeSystem(void* ptr_isInitialized) {
 	*isInitialized = false;
 	return 0;
 }
-
- // }
-
-//}
 
 ///need to change the generated shared lib name to del_python_ext
 /*BOOST_PYTHON_MODULE(del_python_ext)

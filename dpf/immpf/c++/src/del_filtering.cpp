@@ -10,11 +10,11 @@
 #include <Eigen/Dense>
 #include <gsl/gsl_sort.h>
 #include <gsl/gsl_statistics.h>
-#include "del_filtering.h"
-#include "del_model.h"
-#include "del_rsgarch_model.h"
-#include "del_particle_system.h"
-#include "del_aux_immpf.h"
+#include "del_filtering.hpp"
+#include "del_model.hpp"
+#include "del_rsgarch_model.hpp"
+#include "del_particle_system.hpp"
+#include "del_aux_immpf.hpp"
 
 ///TODO:unify interfaces in particle_system for BF, APF and IMMPF
 ///TODO:use factory class to produce partilce_system object, filter object, and model object and get the pointers returned

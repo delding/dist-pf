@@ -6,7 +6,7 @@
  */
 
 
-#include "del_rsgarch_model.h"
+#include "del_rsgarch_model.hpp"
 
 namespace del {
 

@@ -5,7 +5,7 @@
  *      Author: erli
  */
 
-#include "bearing_only_model.h"
+#include "bearing_only_model.hpp"
 
 
 namespace del {
@@ -35,6 +35,5 @@ namespace del {
 	  exp[0] = result;
 	  return exp;
   }
-
 }
 
